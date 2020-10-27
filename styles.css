@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
+}
+
+#p1 {
+    width: 29%;
+    height: 150px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px #888888;
+    overflow: hidden;
+    margin: 25px;
+    float: left; 
+    padding-top: 38px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 13px;
+    box-sizing: border-box;
+    background-color: #aaa;
+    position: relative;
+    font-size: 16px;
+}
+
+#p2 {
+    width: 29%;
+    height: 150px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px #888888;
+    overflow: hidden;
+    margin: 25px;
+    float: left; 
+    padding-top: 38px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 13px;
+    box-sizing: border-box;
+    background-color: #aaa;
+    position: relative;
+    font-size: 16px;
+}
+
+#p3 {
+    width: 29%;
+    height: 150px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px #888888;
+    overflow: hidden;
+    margin: 25px;
+    float: left; 
+    padding-top: 38px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 13px;
+    box-sizing: border-box;
+    background-color: #aaa;
+    position: relative;
+    font-size: 16px;
+}
+
+#chicken {
+    position: absolute;
+    width: 120px;
+    height: 23px;
+    right: 0;
+    top: 0;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: rgb(187, 138, 163);
+    box-shadow: 1px 1px 1px rgb(57, 73, 73);
+}
+
+#beef {
+    position: absolute;
+    width: 120px;
+    height: 23px;
+    right: 0;
+    top: 0;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: rgb(187, 138, 138);
+    box-shadow: 1px 1px 1px rgb(57, 73, 73);
+}
+#sushi {
+    position: absolute;
+    width: 120px;
+    height: 23px;
+    right: 0;
+    top: 0;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: rgb(209, 190, 107);
+    box-shadow: 1px 1px 1px rgb(57, 73, 73);
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #p1{
+        width: 40%;
+        height: 150px;
+    }
+    #p2{
+        width: 40%;
+        height: 150px;
+    }
+    #p3{
+        width: 87%;
+        height: 150px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #p1{
+        width: 43.5%;
+        height: 150px;
+    }
+    #p2{
+        width: 43.5%;
+        height: 150px;
+    }
+    #p3{
+        width: 92%;
+        height: 150px;
+    }
+}
+
+@media (max-width: 767px) {
+    #p1{
+        width: 88%;
+        height: 150px;
+    }
+    #p2{
+        width: 88%;
+        height: 150px;
+        }
+    #p3{
+        width: 88%;
+        height: 150px;
+    } 
+}
+    
